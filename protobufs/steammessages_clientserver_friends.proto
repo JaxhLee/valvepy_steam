@@ -1,7 +1,8 @@
+syntax = "proto2";
 import "steammessages_base.proto";
 
 option optimize_for = SPEED;
-option cc_generic_services = false;
+option py_generic_services = false;
 
 message CMsgClientFriendMsg {
 	optional fixed64 steamid = 1;

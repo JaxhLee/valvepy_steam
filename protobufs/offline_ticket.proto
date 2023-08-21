@@ -1,3 +1,4 @@
+syntax = "proto2";
 message Offline_Ticket {
 	optional bytes encrypted_ticket = 1;
 	optional bytes signature = 2;
